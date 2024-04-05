@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Main from './main';
+import Resume from './resume';
+import Project from './project';
+import  Footer  from './footer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Main/>
+    <Resume/>
+    <Project/>
+    <Footer/>
   </React.StrictMode>
 );
 
